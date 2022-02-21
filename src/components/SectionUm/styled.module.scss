@@ -1,0 +1,162 @@
+.section01{
+    display: flex;
+    align-items: center;
+   
+    min-height: calc(100vh - 15rem);
+    margin: 0 auto;
+    max-width: 1120px;
+    padding: 24px 0;
+    
+    
+
+    
+
+    h2{
+        
+        color: #000814;
+        width: 400px;
+        font-size: 62px;
+        font-weight: bold;
+    }
+
+    p{  
+        width: 450px;
+    }
+
+    .featureExtended {
+        padding: 24px 0;
+        
+    }
+
+    .featureExtendedBody {
+        margin-left: 6rem;
+        
+    }
+
+    .featureExtendedBodyLeft{
+        margin-right: 6rem;
+        
+    }
+
+
+    .featureExtendedImage {
+        
+        position: relative;
+        margin-bottom: 32px;
+        
+        img,
+        svg {
+            width: 100%;
+            max-width: 706px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: visible;
+        };
+
+        .mockupBg {
+            pointer-events: none;
+            
+            img,
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 700px !important;
+                height: auto;
+                max-width: 500% !important;
+            }
+        };
+    
+    
+        .deviceMockup {
+            position: relative;
+            width: 450px;
+            height: auto;
+            margin: 0 auto;
+            z-index: 1;
+        };
+    }
+
+
+    
+}
+
+
+@media (max-width: 870px){
+.section01{
+    display: block;
+    
+
+    h2{
+        color: #000814;
+        width: 400px;
+        font-size: 52px;
+        font-weight: bold;
+    }
+
+    p{
+        width: 350px;
+    }
+
+    .featureExtended {
+        padding: 24px 0;
+        
+    }
+
+    .featureExtendedBody {
+        margin-left: 0;
+        
+    }
+
+    .featureExtendedBodyLeft{
+        margin-right: 6rem;
+        
+    }
+
+    .featureExtendedImage {
+        
+        position: relative;
+        margin-bottom: 32px;
+        margin-top: 200px;
+    
+        img,
+        svg {
+            width: 100%;
+            max-width: 306px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: visible;
+        };
+
+        .mockupBg {
+            pointer-events: none;
+    
+            img,
+            svg {
+                position: absolute;
+                top: 50%;
+                
+                transform: translate(-50%, -50%);
+                width: 500px !important;
+                height: auto;
+                max-width: 500% !important;
+            }
+        };
+    
+    
+        .deviceMockup {
+            position: relative;
+            width: 250px;
+            height: auto;
+            margin: 0 auto;
+            z-index: 1;
+        };
+    }
+    
+    
+}
+
+}

@@ -1,0 +1,17 @@
+.container{   
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    //background-color: rgba(0, 0, 0, 0.2);
+    left: 25rem;
+    .contaninerVideo{
+        position: relative;
+        z-index: 10;
+
+        
+    }
+
+    .icon{
+        font-size: 2rem;
+    }
+}

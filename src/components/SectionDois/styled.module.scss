@@ -1,0 +1,164 @@
+.container{
+    padding:  5rem 0;
+    display: flex;
+    align-items: center;
+    
+    min-height: calc(100vh - 35rem);
+    
+    margin: 0 auto;
+    max-width: 1120px;
+
+    .textContainer{
+
+        h3{
+            font-size: 32px;
+            color: #000814;
+            font-weight: bold;
+        }
+
+        button{
+            margin-top: 2rem;
+            background-color: #1c1d1f;
+            color: #fff;
+            padding: 12px;
+            border-radius: 10px;
+        }
+    }
+
+    .containerVideo{
+        background-color: rgb(0, 0, 0);
+        height: 400px;
+        width: 1000px;
+    }
+
+    .containerVideo{
+        position: relative;
+        overflow: hidden;  
+    
+        img,
+        svg {
+            width: 100%;
+            max-width: 706px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            overflow: visible;
+        };
+
+        .mockupBg {
+            pointer-events: none;
+    
+            img,
+            svg {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 700px !important;
+                height: auto;
+                max-width: 500% !important;
+            }
+        };
+    
+    
+        .deviceMockup {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin: 0 auto;
+            z-index: 1;
+            background-color: #fff;
+            top: 35%;  
+            left: 45%;
+            
+            .icon{
+                height: 2rem;
+
+            }
+        };
+
+
+    }
+}
+
+@media (max-width: 870px){
+
+    .container{
+        padding:  5rem 0;
+        display: block;
+        align-items: center;
+        
+        min-height: calc(100vh - 35rem);
+        
+        margin: 0 auto;
+        max-width: 1120px;
+    
+        .textContainer{
+    
+            h3{
+                font-size: 32px;
+                color: #000814;
+                font-weight: bold;
+            }
+
+        }
+    
+        .containerVideo{
+            background-color: rgb(0, 0, 0);
+            height: 300px;
+            width: 350px;
+        }
+    
+        .containerVideo{
+            position: relative;
+            overflow: hidden;  
+            margin-top: 2rem;
+            img,
+            svg {
+                width: 100%;
+                max-width: 706px;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                overflow: visible;
+            };
+    
+            .mockupBg {
+                pointer-events: none;
+        
+                img,
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 450px !important;
+                    height: auto;
+                    max-width: 500% !important;
+                }
+            };
+        
+        
+            .deviceMockup {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+                margin: 0 auto;
+                z-index: 1;
+                background-color: #fff;
+                top: 35%;  
+                left: 45%;
+                
+                .icon{
+                    height: 2rem;
+    
+                }
+            };
+    
+    
+        }
+    }
+
+}

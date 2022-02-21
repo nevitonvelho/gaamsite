@@ -1,0 +1,77 @@
+.container{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    padding-bottom: 5rem;
+    
+    .conteudo{
+        display: flex;
+
+        .imgProduto{
+            border-radius: 2rem;    
+        }
+
+        h1{
+            font-size: 4rem;
+            font-weight: bold;
+            line-height: 4.5rem;
+        }
+
+        p{
+            font-size: 1rem;
+        }
+    }
+    
+}
+
+.postContent{
+    font-size: 15px;
+    padding: 7rem 4rem;
+    text-align: justify;
+}
+
+.card__background{
+    background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)
+}
+
+
+  
+
+.mySwiper{
+    width: 500px;
+    height: 500px;
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+
+  }
+
+  .thumbs{
+    margin-top: 2rem;
+    width: 900px;
+  }
+
+
+  .titlePage{
+    background-color: #011638;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 8rem;
+    // margin: 3rem auto;
+    max-width: 1920px;
+    border-radius: 1.3rem;
+    text-align: center;
+
+    img{
+        
+    }
+}
